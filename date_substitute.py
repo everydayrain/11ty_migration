@@ -1,11 +1,12 @@
 #!/bin/python3
+# Simple script to transform dates from slashes to dashes given a set of markdown files
 
 # Import modules
 import re
 from pathlib import Path
 
 # Set target directory
-src_dir = "/home/sociodicy/imagined_realities/content/blog/"
+src_dir = "/home/directory/of/your/blog/"
 
 
 def find_images(file_variable):
